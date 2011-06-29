@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Jedi")]
+[assembly: AssemblyTitle("JediModel")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Jedi")]
+[assembly: AssemblyProduct("JediModel")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("ea8aa5f1-f526-4124-9b4f-2cbbfdecd0e6")]
+[assembly: Guid("01e5e641-f3aa-4b34-8f46-7850f166d625")]
 
 // Version information for an assembly consists of the following four values:
 //

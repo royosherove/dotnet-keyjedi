@@ -1,0 +1,31 @@
+<Configuration>
+  <SnapshotDialog>
+    <InitialDirectory>C:\Development\Jedi\Jedi</InitialDirectory>
+  </SnapshotDialog>
+  <CoverageFilters>
+    <AllowFilters>
+      <Filter>
+        <ClassFilter>*</ClassFilter>
+        <FunctionFilter>*</FunctionFilter>
+        <ModuleFilter>*</ModuleFilter>
+      </Filter>
+    </AllowFilters>
+    <DenyFilters>
+      <Filter>
+        <ClassFilter>*Tests</ClassFilter>
+        <FunctionFilter>*</FunctionFilter>
+        <ModuleFilter>*</ModuleFilter>
+      </Filter>
+      <Filter>
+        <ClassFilter>*TestHelper</ClassFilter>
+        <FunctionFilter>*</FunctionFilter>
+        <ModuleFilter>*</ModuleFilter>
+      </Filter>
+      <Filter>
+        <ClassFilter>*</ClassFilter>
+        <FunctionFilter>*</FunctionFilter>
+        <ModuleFilter>*Tests</ModuleFilter>
+      </Filter>
+    </DenyFilters>
+  </CoverageFilters>
+</Configuration>

@@ -20,7 +20,7 @@ including credits and associated text files.
 	- Open Visual Studio when Key Jedi is running. Make vs the active app.
 	- Press Ctrl-shift-alt-f12
 	- Key jedi will tell you you are in mousless mode for vs.
-	- your mouse will be "help prisoner" in the bounds of Key Jedi.
+	- your mouse will be "held prisoner" in the bounds of Key Jedi.
 	- you will only be able to use your keyboard to operate VS. Use this mode to force yourself to learn keyboard shortcuts instead of using the mouse.
 	- If you alt-tab to a different application your mouse will be free.
 	- if you alt-tab back to VS, your mouse will lock again.

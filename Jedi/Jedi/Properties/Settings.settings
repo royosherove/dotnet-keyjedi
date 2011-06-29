@@ -20,14 +20,14 @@
     <Setting Name="MouselessModeKey" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Ctrl+Shift+Alt+F12</Value>
     </Setting>
-    <Setting Name="ListFont" Type="System.Drawing.Font" Scope="Application">
-      <Value Profile="(Default)">Tahoma, 18pt, style=Bold</Value>
-    </Setting>
     <Setting Name="ForeColor" Type="System.Drawing.Color" Scope="Application">
       <Value Profile="(Default)">WindowText</Value>
     </Setting>
     <Setting Name="BackColor" Type="System.Drawing.Color" Scope="Application">
       <Value Profile="(Default)">Window</Value>
+    </Setting>
+    <Setting Name="ListFont" Type="System.Drawing.Font" Scope="Application">
+      <Value Profile="(Default)">Tahoma, 18pt, style=Bold</Value>
     </Setting>
   </Settings>
 </SettingsFile>
