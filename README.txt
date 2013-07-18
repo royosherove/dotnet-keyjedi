@@ -1,3 +1,5 @@
+This project is licensed under the Apache 2 License.
+
 Using Keyboard Jedi - 1 minute guide
 By Roy Osherove (Roy at Osherove.com)
 Blog: www.osherove.com
