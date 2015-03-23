@@ -75,6 +75,19 @@ namespace Jedi.Entities
 					Keys.F12
 				};
 
+		private static readonly List<Keys> remainingKeys = new List<Keys> {};
+
+        public static void BuildRemainingKeys()
+        {
+            foreach (Keys key in Keys.GetValues(typeof(Keys)))
+            {
+                if (!specialSingleKeys.Any(x => x == key) && !comboKeys.Any(x => x == key))
+                {
+                    remainingKeys.Add(key);
+                }
+            }
+        }
+
 		public static void AddToSpecialSingleKeys(this Keys keys)
 		{
 			specialSingleKeys.Add(keys);
@@ -97,6 +110,11 @@ namespace Jedi.Entities
 		public static bool IsSpecialSingleKey(this Keys keys)
 		{
 			return specialSingleKeys.Any(x => x == keys);
+		}
+
+		public static bool IsOtherKey(this Keys keys)
+		{
+			return remainingKeys.Any(x => x == keys);
 		}
 	}
 }
