@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Jedi.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JediUI.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="VisualStudioOnly" Type="System.Boolean" Scope="Application">
@@ -28,6 +28,15 @@
     </Setting>
     <Setting Name="ListFont" Type="System.Drawing.Font" Scope="Application">
       <Value Profile="(Default)">Tahoma, 18pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="ShowOrdinaryKeys" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Logfile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CleanLogfile" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
     </Setting>
   </Settings>
 </SettingsFile>
