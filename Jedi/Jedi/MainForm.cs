@@ -32,6 +32,14 @@ namespace JediUI
 			keyboardHook.KeyboardEvent += KeyboardHookKeyboardEvent;
 			mgr.ShortcutActivated += mgr_OnShortcutActivated;
 			keyboardHook.InstallHook();
+
+            if (Settings.Default.CleanLogfile && !string.IsNullOrEmpty(Settings.Default.Logfile))
+            {
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Settings.Default.Logfile))
+                {
+                    file.Write("");
+                }
+            }
 		}
 
 		public void DisplayKeys(IEnumerable<KeyViewModel> keys)
