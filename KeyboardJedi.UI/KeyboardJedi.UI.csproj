@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -87,7 +88,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JediModel\Jedi.csproj">
+    <ProjectReference Include="..\KeyboardJedi.Core\KeyboardJedi.Core.csproj">
       <Project>{97FF602F-458C-4D26-8B1E-05B5BA3E829C}</Project>
       <Name>Jedi</Name>
     </ProjectReference>
@@ -98,7 +99,7 @@
     </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>copy "$(SolutionDir)..\libs\*.*" "$(TargetDir)" /Y</PreBuildEvent>
+    <PreBuildEvent>copy "$(SolutionDir)libs\*.*" "$(TargetDir)" /Y</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
