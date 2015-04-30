@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using Jedi.ViewModels;
+using KeyboardJedi.Core.ViewModels;
 
-namespace Jedi.Entities
+namespace KeyboardJedi.Core.Entities
 {
 	public class KeyMessageCollector
 	{

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Jedi.Services
+namespace KeyboardJedi.Core.Services
 {
 	public class NativeHelpers
 	{

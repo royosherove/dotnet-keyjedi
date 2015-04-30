@@ -1,7 +1,6 @@
-﻿using Jedi;
-using Jedi.Views;
+﻿using KeyboardJedi.Core.Views;
 
-namespace JediUI
+namespace KeyboardJedi.UI
 {
     partial class MainForm : IMainFormView
     {

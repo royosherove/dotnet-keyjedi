@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using Jedi.Entities;
-using Jedi.ViewModels;
+﻿using System.Linq;
+using KeyboardJedi.Core.Entities;
+using KeyboardJedi.Core.ViewModels;
 using NUnit.Framework;
-using System.Linq;
 
-namespace Tests.Entities
+namespace KeyboardJedi.Tests.Entities
 {
 	[TestFixture]
 	public class KeyMessageCollectorTests

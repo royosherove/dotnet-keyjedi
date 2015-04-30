@@ -8,8 +8,8 @@
     <ProjectGuid>{BA2A82F7-DDD2-4F3E-9ED7-9136FDAC8AAE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JediUI</RootNamespace>
-    <AssemblyName>KeyJedi</AssemblyName>
+    <RootNamespace>KeyboardJedi.UI</RootNamespace>
+    <AssemblyName>KeyboardJedi.UI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

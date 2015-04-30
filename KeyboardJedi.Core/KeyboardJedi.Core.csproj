@@ -8,8 +8,8 @@
     <ProjectGuid>{97FF602F-458C-4D26-8B1E-05B5BA3E829C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jedi</RootNamespace>
-    <AssemblyName>Jedi</AssemblyName>
+    <RootNamespace>KeyboardJedi.Core</RootNamespace>
+    <AssemblyName>KeyboardJedi.Core</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

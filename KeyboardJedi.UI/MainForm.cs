@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using Jedi;
-using Jedi.Presenters;
-using Jedi.Services;
-using Jedi.ViewModels;
-using Jedi.Views;
-using JediUI.Properties;
 using Kennedy.ManagedHooks;
+using KeyboardJedi.Core.Presenters;
+using KeyboardJedi.Core.Services;
+using KeyboardJedi.Core.ViewModels;
+using KeyboardJedi.Core.Views;
+using KeyboardJedi.UI.Properties;
 
-namespace JediUI
+namespace KeyboardJedi.UI
 {
 	public partial class MainForm : Form, IMainFormView
 	{
