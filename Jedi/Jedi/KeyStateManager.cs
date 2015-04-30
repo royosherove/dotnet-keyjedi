@@ -48,7 +48,8 @@ namespace JediUI
 			{
 				ShortcutActivated(BuildKeyMessage(keyStates, currentKey));
 			}
-			else if ((kEvents == KeyboardEvents.KeyDown) && currentKey.IsSpecialSingleKey())
+			else if ((kEvents == KeyboardEvents.KeyDown) && (currentKey.IsSpecialSingleKey() ||
+			         currentKey.IsOtherKey()))
 			{
 				ShortcutActivated(BuildKeyMessage(keyStates, currentKey));
 			}
@@ -72,9 +73,24 @@ namespace JediUI
 					builder.Append("+");
 				}
 			}
+
 			builder.Append(key.DisplayName());
+
+            if (!string.IsNullOrEmpty(Settings.Default.Logfile))
+            {
+                LogKey(builder.ToString());
+            }
+
 			return builder.ToString();
 		}
+
+        private void LogKey(string key)
+        {
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(Settings.Default.Logfile, true))
+            {
+                file.WriteLine(key);
+            }
+        }
 
 		private void InitializeConfigurableSpecialSingleKeys()
 		{
@@ -92,6 +108,10 @@ namespace JediUI
 				Keys.Next.AddToSpecialSingleKeys();
 				Keys.Prior.AddToSpecialSingleKeys();
 			}
+            if (Settings.Default.ShowOrdinaryKeys)
+            {
+                KeyExtensions.BuildRemainingKeys();
+            }
 		}
 	}
 }
