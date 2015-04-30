@@ -67,7 +67,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JediModel\Jedi.csproj">
+    <ProjectReference Include="..\KeyboardJedi.Core\KeyboardJedi.Core.csproj">
       <Project>{97FF602F-458C-4D26-8B1E-05B5BA3E829C}</Project>
       <Name>Jedi</Name>
     </ProjectReference>
