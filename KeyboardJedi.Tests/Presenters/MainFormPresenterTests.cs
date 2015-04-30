@@ -1,10 +1,10 @@
-﻿using Jedi.Presenters;
-using Jedi.Services;
-using Jedi.Views;
+﻿using KeyboardJedi.Core.Presenters;
+using KeyboardJedi.Core.Services;
+using KeyboardJedi.Core.Views;
 using Moq;
 using NUnit.Framework;
 
-namespace Tests.Presenters
+namespace KeyboardJedi.Tests.Presenters
 {
 	[TestFixture]
 	public class MainFormPresenterTests

@@ -1,8 +1,8 @@
 ﻿using System.Windows.Forms;
-using Jedi.Entities;
+using KeyboardJedi.Core.Entities;
 using NUnit.Framework;
 
-namespace Tests.Entities
+namespace KeyboardJedi.Tests.Entities
 {
 	[TestFixture]
 	public class KeyExtensionsTests

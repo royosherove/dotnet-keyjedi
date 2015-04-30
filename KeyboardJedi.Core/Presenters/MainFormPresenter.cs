@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using Jedi.Entities;
-using Jedi.Services;
-using Jedi.Views;
+using KeyboardJedi.Core.Entities;
+using KeyboardJedi.Core.Services;
+using KeyboardJedi.Core.Views;
 
-namespace Jedi.Presenters
+namespace KeyboardJedi.Core.Presenters
 {
 	public class MainFormPresenter
 	{

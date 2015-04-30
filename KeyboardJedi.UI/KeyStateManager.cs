@@ -2,13 +2,12 @@
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Jedi;
-using Jedi.Entities;
-using Jedi.Services;
-using JediUI.Properties;
 using Kennedy.ManagedHooks;
+using KeyboardJedi.Core.Entities;
+using KeyboardJedi.Core.Services;
+using KeyboardJedi.UI.Properties;
 
-namespace JediUI
+namespace KeyboardJedi.UI
 {
 	public class KeyStateManager
 	{

@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Jedi.ViewModels
+namespace KeyboardJedi.Core.ViewModels
 {
 	public class KeyViewModel
 	{

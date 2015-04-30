@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Jedi.Services
+namespace KeyboardJedi.Core.Services
 {
 	public interface IJediSettings
 	{

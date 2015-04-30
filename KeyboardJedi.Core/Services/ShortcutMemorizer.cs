@@ -2,7 +2,7 @@
 using System.Text;
 using System.Windows.Forms;
 
-namespace Jedi.Services
+namespace KeyboardJedi.Core.Services
 {
 	public class ShortcutMemorizer
 	{

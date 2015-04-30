@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Jedi.Entities
+namespace KeyboardJedi.Core.Entities
 {
 	public static class KeyExtensions
 	{

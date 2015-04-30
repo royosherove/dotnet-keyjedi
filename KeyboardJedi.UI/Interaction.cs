@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace JediUI
+namespace KeyboardJedi.UI
 {
 	public static class Interaction
 	{

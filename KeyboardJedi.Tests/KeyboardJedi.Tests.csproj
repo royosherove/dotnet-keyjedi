@@ -8,8 +8,8 @@
     <ProjectGuid>{9449EBD6-7C4B-46B1-AA7B-7A1A9184EF25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tests</RootNamespace>
-    <AssemblyName>Tests</AssemblyName>
+    <RootNamespace>KeyboardJedi.Tests</RootNamespace>
+    <AssemblyName>KeyboardJedi.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

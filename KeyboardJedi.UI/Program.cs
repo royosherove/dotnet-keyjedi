@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using JediUI;
 
-namespace Jedi
+namespace KeyboardJedi.UI
 {
 	internal static class Program
 	{

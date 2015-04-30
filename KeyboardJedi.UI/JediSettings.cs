@@ -1,9 +1,8 @@
 ﻿using System.Drawing;
-using Jedi;
-using Jedi.Services;
-using JediUI.Properties;
+using KeyboardJedi.Core.Services;
+using KeyboardJedi.UI.Properties;
 
-namespace JediUI
+namespace KeyboardJedi.UI
 {
 	public class JediSettings : IJediSettings
 	{

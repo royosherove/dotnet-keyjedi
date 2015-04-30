@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
-using Jedi.ViewModels;
+using KeyboardJedi.Core.ViewModels;
 
-namespace Jedi.Views
+namespace KeyboardJedi.Core.Views
 {
 	public interface IMainFormView
 	{

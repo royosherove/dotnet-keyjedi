@@ -1,9 +1,8 @@
-﻿using System;
-using System.Windows.Forms;
-using Jedi.Services;
+﻿using System.Windows.Forms;
+using KeyboardJedi.Core.Services;
 using NUnit.Framework;
 
-namespace Tests
+namespace KeyboardJedi.Tests
 {
 	[TestFixture]
 	public class ShortcutMemorizerTests
